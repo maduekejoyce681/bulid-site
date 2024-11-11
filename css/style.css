@@ -206,6 +206,12 @@ html{
     padding: 100px 0;
 }
 
+.services-heading{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
 .services-contents{
     text-align: center;
     padding-bottom: 15px;
@@ -566,15 +572,15 @@ input:focus, textarea:focus{
         padding: 0 30px;
     }
 
+    .header {
+        height: 85vh;
+    }
+
     .section-main-heading {
         font-size: 30px;
     }
     .nav-contents {
         margin-bottom: 0px;
-    }
-
-    .section-services {
-        padding: 50px 0;
     }
 
     .hero-main-heading {
@@ -583,23 +589,34 @@ input:focus, textarea:focus{
 
     .hero-image-container {
        width: 100%;
+       margin-top: 130px;
     }
 
     .hero-image-container  img{
-        width: 100%;
-        overflow: hidden; 
+        width: 100%; 
     }
 
     .hero-para {
         padding: 0px;
     }
 
+    .section-services {
+        padding: 50px 0;
+    }
+
+    .services-heading {
+        font-size: 35px;
+        font-weight: 700;
+        margin-bottom: 40px;
+        margin-top: 400px;
+    }
+
     .section-collection {
         padding: 50px 0;
     }
-    
+
     .collection-image-box img {
-        margin-top: -141px;
+        margin-top: -89px;
     }
 
     .section-advert {
