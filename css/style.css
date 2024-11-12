@@ -585,7 +585,7 @@ input:focus, textarea:focus{
     }    
 }
 
-/* Media query for device width less or equal to 480 */
+/* Media query for device width less or equal to 480*/
 @media screen and (max-width: 480px) {
     .row{
         padding: 0 30px;
